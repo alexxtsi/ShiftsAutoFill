@@ -61,9 +61,9 @@ password_field = driver.find_element(By.NAME, 'Password')
 company_field = driver.find_element(By.NAME, 'Company')
 login_button = driver.find_element(By.NAME, '_ctl1')
 
-username_field.send_keys('alexander.tsiganenko@intel.com')
-password_field.send_keys('Zxwe34ui!')
-company_field.send_keys('intel')
+username_field.send_keys('****')
+password_field.send_keys('***!')
+company_field.send_keys('***')
 login_button.click()
 
 driver.get('https://app.ezshift.co.il/pages/ScheduleMy.aspx')
