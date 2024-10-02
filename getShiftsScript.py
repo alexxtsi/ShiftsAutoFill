@@ -108,8 +108,8 @@ def log_in(driver):
     password_field = driver.find_element(By.ID, 'password_nm')
     login_button = driver.find_element(By.CSS_SELECTOR, "button.hbutton2.hbutton2-lg.primary.fw.mb")
 
-    username_field.send_keys('12053375')
-    password_field.send_keys('Zxwe34ui!')
+    username_field.send_keys('********')
+    password_field.send_keys('********')
     login_button.click()
 
 fill_days()
